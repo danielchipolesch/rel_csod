@@ -1,0 +1,219 @@
+p				{ font-family: Arial, Verdana; font-size: 15px; color: #555 style:bold;}
+h1  		{ font-family: Verdana; font-size: 30px; color: #fff;}		
+/*body	{ background:#ffffff url("fundo1.jpg") top center no-repeat ; }*/
+body		{ background: url("degrade.jpg") repeat-x; }
+.legenda {
+    font:20px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#555;
+    width:600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*
+.topo
+        {
+                background-color: #ccc;
+                width:700px;
+                height:100px;
+                position:absolute;
+                left:50%;
+                margin-left:-350px;
+        }
+*/
+
+.texto
+{
+    width:700px;
+    height:30px;
+    position:absolute;
+    left:50%;
+    margin-left:-350px;
+    /*margin-top: 105px;*/
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    color: #fff;
+    text-shadow:-3px 3px 2px #555;
+}
+
+.relprev
+{
+    background: url("form_sint.png") top center no-repeat ;
+    width:872px;
+    height:1240px;
+    border: 1px #ccc dotted;
+    position:absolute;
+    left:50%;
+    margin-left:-350px;
+    margin-top:45px;
+}
+
+
+.input {
+    background-color: #fff;
+    font:12px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#04d;
+    width:550px;
+    border: dotted 1px #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.input_local {
+    background-color: #fff;
+    font:12px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#04d;
+    width:160px;
+    border: dotted 1px #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+	
+}
+
+.input_time {
+    background-color: #fff;
+    font:12px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#04d;
+    width:160px;
+    border: dotted 1px #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.input_id {
+    background-color: #fff;
+    font:12px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#04d;
+    width:235px;
+    border: dotted 1px #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.textarea {
+    background-color: #fff;
+    font:12px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#04d;
+    width:700px;
+    border: dotted 1px #ccc;
+    height:620px;
+    margin-bottom: 5px;
+    padding: 5px;
+    resize:none;
+}
+
+.select {
+    background-color: #fff;
+    font:20px verdana, arial, helvetica, sans-serif;
+    font-style: bold;
+    color:#999;
+    width:600px;
+    border: dotted 1px #ccc;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.submit:hover {
+    background-color: #d00;
+    font:13px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#fff;
+    width:140px;
+    border: solid 1px #fff;
+    margin-bottom: 5px;
+    padding: 5px; 
+}
+
+.submit {
+    background-color: #fff;
+    font:13px verdana, arial, helvetica, sans-serif;
+    font-style: italic;
+    color:#d00;
+    width:140px;
+    border: solid 1px #f00;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.om
+{
+    padding-top: 220px;
+    padding-left: 80px;
+}
+
+.local
+{
+    padding-top: 22px;
+    padding-left: 140px;
+    float: left;
+}
+
+.data
+{
+    padding-top: 22px;
+    padding-left: 390px;
+
+}
+
+.hora
+{
+    padding-top: -50px;
+    padding-left: 635px;
+
+}
+
+.pessoal
+{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.situacao
+{
+    padding-top: 14px;
+    padding-left: 80px;
+}
+.anonimo
+{
+    padding-top: 10px;
+    padding-left: 76px;
+}
+
+.relator
+{
+    padding-top: 0px;
+    padding-left: 180px;
+    float: left;
+}
+
+.email
+{
+    padding-top: 0px;
+    padding-left: 550px;
+    color: #00a;
+    font-style: italic;
+}
+
+.botoes
+{
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 400px;
+}
+
+.creditos
+{
+    padding: 65px 0 0 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: #999;
+}
