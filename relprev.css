@@ -40,7 +40,7 @@ body		{ background: url("degrade.jpg") repeat-x; }
 
 .relprev
 {
-    background: url("form_sint.png") top center no-repeat ;
+    background: url("./form_sint.png") top center no-repeat ;
     width:872px;
     height:1240px;
     border: 1px #ccc dotted;
@@ -72,7 +72,7 @@ body		{ background: url("degrade.jpg") repeat-x; }
     border: dotted 1px #ccc;
     margin-bottom: 5px;
     padding: 3px;
-	margin-top: 12px;
+	margin-top: 20px;
 }
 
 .input_time {
@@ -84,7 +84,7 @@ body		{ background: url("degrade.jpg") repeat-x; }
     border: dotted 1px #ccc;
     margin-bottom: 5px;
     padding: 3px;
-	margin-top: 12px;
+	margin-top: 20px;
 }
 
 .input_id {
@@ -94,6 +94,7 @@ body		{ background: url("degrade.jpg") repeat-x; }
     color:#04d;
     width:235px;
     border: dotted 1px #ccc;
+    margin-top: 45px;
     margin-bottom: 5px;
     padding: 3px;
 }

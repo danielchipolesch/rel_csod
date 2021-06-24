@@ -1,9 +1,9 @@
 <html>
-    <head>
-        <title>DITL - Inteligência PAMA-LS</title>   
-        <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+	<head>
+		<title>DITL - Inteligência PAMA-LS</title>   
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
 		<link rel='stylesheet' href='./relprev.css' type='text/css' media='screen'></link>
-    </head>
+	</head>
 <?php
 
 
@@ -35,35 +35,35 @@ if(!empty($_POST['relator'])){
 
  $body = "
 <html>
-    <head>
-        <title>DITL - Inteligência PAMA-LS</title>   
-        <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
+	<head>
+		<title>DITL - Inteligência PAMA-LS</title>   
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
 		<link rel='stylesheet' href='./relprev.css' type='text/css' media='screen'></link>
-    </head>
+	</head>
 	
-    <body cz-shortcut-listen='true' id='body' bgcolor='#F8F8FF'> 
-        <div id='tudo'>	
-            <div id='cabecalho'>
-            <table border='0'>
-                <tr>
-                    <td width='29%'><img src='cid:img_dom' width='150'></td>
-                    <td>
-                        <h2>Relatório de Vulnerabilidades - PAMA-LS</h2>                        
-                        <b>Local:</b> $local<br>
-                        <b>Data</b> $data<br>
-                        <b>Hora:</b> $hora<br>
-                        <b>Relator:</b> $relator<br>
-                        <b>E-mail:</b> $email<br>                        
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <br>         
-            <b>Fatos Relatados:</b> <br>
-            $fatos_observados                                                      
-            </div>
-        </div>
-    </body>
+	<body cz-shortcut-listen='true' id='body' bgcolor='#F8F8FF'> 
+		<div id='tudo'>	
+			<div id='cabecalho'>
+			<table border='0'>
+				<tr>
+					<td width='29%'><img src='cid:img_dom' width='150'></td>
+					<td>
+						<h2>Relatório de Vulnerabilidades - PAMA-LS</h2>                        
+						<b>Local:</b> $local<br>
+						<b>Data</b> $data<br>
+						<b>Hora:</b> $hora<br>
+						<b>Relator:</b> $relator<br>
+						<b>E-mail:</b> $email<br>                        
+					</td>
+				</tr>
+			</table>
+			<br>
+			<br>         
+			<b>Fatos Relatados:</b> <br>
+			$fatos_observados                                                      
+			</div>
+		</div>
+	</body>
 </html>";
 //$body .= "Content-type: image/jpeg; name=\"$imagem_nome\"\r\n";
 //$body .= "Content-Transfer-Encoding: base64\r\n";

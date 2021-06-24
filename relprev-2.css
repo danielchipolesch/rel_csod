@@ -40,7 +40,7 @@ body		{ background: url("degrade.jpg") repeat-x; }
 
 .relprev
 {
-    background: url("form_sint.png") top center no-repeat ;
+    background: url("./form_sint.png") top center no-repeat ;
     width:872px;
     height:1240px;
     border: 1px #ccc dotted;
