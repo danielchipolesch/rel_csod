@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>DITL - Inteligência PAMA-LS</title>   
+		<title>DIRAD - Relatório de Situação Crítica de Segurança</title>   
 		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
 		<link rel='stylesheet' href='./relprev.css' type='text/css' media='screen'></link>
 	</head>
@@ -101,7 +101,7 @@ $mail->FromName = ""; // Seu nome
 
 # Define os destinat?io(s)
 //$mail->AddAddress('sint.ciaar@fab.mil.br', 'SINT - CIAAR'); # Os campos podem ser substituidos por vari?eis
-$mail->AddAddress('ditl@fab.mil.br', 'DITL - PAMA-LS'); # Os campos podem ser substituidos por vari?eis
+$mail->AddAddress('csod.dirad@fab.mil.br', 'CSOD - DIRAD'); # Os campos podem ser substituidos por vari?eis
 
 
 #$mail->AddCC('ciclano@site.net', 'Ciclano'); # Copia
@@ -112,7 +112,7 @@ $mail->IsHTML(true); # Define que o e-mail ser?enviado como HTML
 $mail->CharSet = 'UTF-8'; # Charset da mensagem (opcional)
 
 # Define a mensagem (Texto e Assunto)
-$mail->Subject = "DITL - Relatório de Vulnerabilidades - PAMA-LS"; # Assunto da mensagem
+$mail->Subject = "DIRAD - Relatório de Situação Crítica de Segurança"; # Assunto da mensagem
 //$mail->Body = $body; #Corpo do e-mail
 $mail->MsgHTML($body);
 //$mail->AltBody = "Este ?o corpo da mensagem de teste, somente Texto! \r\n :)";
@@ -156,4 +156,3 @@ if ($enviado) {
 ?>
 </body>
 </html>
-
